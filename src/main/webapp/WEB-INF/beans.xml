@@ -20,6 +20,7 @@ http://cxf.apache.org/schemas/jaxrs.xsd">
    <jaxrs:server id="services" address="/">
     <jaxrs:serviceBeans>
       <bean class="com.rewintous.service.cf.HelloWorld" />
+      <bean class="com.rewintous.service.cf.ApiListingResource" />
     </jaxrs:serviceBeans>
     <jaxrs:providers>
         <bean class="org.codehaus.jackson.jaxrs.JacksonJsonProvider"/>
